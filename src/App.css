@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App-header {
+  background-color: #000;
+  padding: 15px 10px;
+  font-size: 24px;
+  color: white;
+}
+.App-header h1 {
+  text-align: center;
+}
+.starships-wrapper {
+  padding: 50px 15px;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  column-gap: 10px;
+  row-gap: 15px;
+}
+.starships-card {
+  min-height: 100px;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  word-wrap: break-word;
+  padding: 5px;
+  background-color: rgb(47, 79, 79);
+  color: white;
+}
+
+
+
